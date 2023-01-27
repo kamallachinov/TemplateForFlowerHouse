@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Martel:wght@400;600&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400;500&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Lato:wght@300;400&family=Martel:wght@400;600&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400;500&family=Quicksand:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background: url("../../Assets/background1.jpg");
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .textCenter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .firsth3 {
+            color: #1b745e;
+            text-align: center;
+            font-style: italic;
+            padding-bottom: 12px;
+            font-family: 'Crimson Text', serif;
+            font-size: 1.125rem;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        h3 {
+            color: #0c5b47;
+            text-align: center;
+            padding-bottom: 0.5rem;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 2.875rem;
+            line-height: 1.1;
+            word-break: break-word;
+            word-wrap: break-word;
+            font-weight: 400;
+        }
+
+        .btn {
+            color: #10634e;
+            background-color: #c4d5c0;
+            border-color: #c4d5c0;
+            padding: 0.5625rem 2.3125rem;
+            border: 0;
+            border-radius: 0px;
+            font-weight: 400;
+            font-family: 'Quicksand',
+                sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 60px;
+            outline: none;
+        }
+
+        input {
+
+            outline: none;
+            font-size: 14px;
+            width: 300px;
+            padding: 7px 10px;
+            border-radius: 0.3rem;
+            border: 0;
+        }
+    }
+
+    .divContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .roww {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 3rem;
+                margin-bottom: 5rem;
+
+                .firstP {
+                    font-family: 'Quicksand', sans-serif;
+                    font-size: 1.375rem;
+                    line-height: 1.5;
+                    color: #1b745e;
+                    word-break: break-word;
+                    word-wrap: break-word;
+                    font-weight: 400;
+                }
+
+                .secP {
+                    font-family: 'Crimson Text', serif;
+                    font-size: 1.125rem;
+                    line-height: 1.5;
+                    word-break: break-word;
+                    word-wrap: break-word;
+                    font-weight: 400;
+                    color: #1b745e;
+                    padding-top: 5px;
+                }
+            }
+
+            img {
+                width: 335px;
+                height: 335px;
+            }
+        }
+    }
+
+    .cardd {
+        border: 1px solid #0c5b47;
+        padding: 70px 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #FEF1E6;
+
+        h6 {
+            font-size: 40px;
+            line-height: 1;
+            word-break: break-word;
+            word-wrap: break-word;
+            font-weight: 400;
+            color: #1b745e;
+            font-family: 'Crimson Text', serif;
+            margin: 0;
+        }
+
+        .firstPP {
+            color: #0c5b47;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1.375rem;
+            line-height: 1.5;
+            word-break: break-word;
+            word-wrap: break-word;
+            font-weight: 400;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .secPP {
+            color: #1b745e;
+            padding-bottom: 39px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            word-break: break-word;
+            word-wrap: break-word;
+            font-weight: 400
+        }
+
+        .btn {
+            color: #10634e;
+            background-color: #c4d5c0;
+            border-color: #c4d5c0;
+            padding: 0.5625rem 2.3125rem;
+            border: 0;
+            border-radius: 0px;
+            font-weight: 400;
+            font-family: 'Quicksand',
+                sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+
+    }
+}

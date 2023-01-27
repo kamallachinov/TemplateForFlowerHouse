@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Martel:wght@400;600&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400;500&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Lato:wght@300;400&family=Martel:wght@400;600&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400;500&family=Quicksand:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0rem;
+
+    .form {
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #0c5b47;
+        justify-content: center;
+        text-align: center;
+
+        label {
+            font-family: 'Quicksand', sans-serif;
+            color: #0c5b47;
+            text-align: center;
+            padding-bottom: 20px;
+            font-size: 1.4rem;
+            line-height: 1.1;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        input {
+            font-size: 14px;
+            width: 300px;
+            padding: 7px 10px;
+            border-radius: 0.3rem;
+            border: 0;
+            outline: 1px solid gray;
+        }
+
+        .btn {
+            margin-top: 1rem;
+            background-color: #25715E;
+            color: white;
+            border: 0;
+            padding: 0.7rem 2rem;
+            border-radius: 0.3rem;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Martel:wght@400;600&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400;500&family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Lato:wght@300;400&family=Martel:wght@400;600&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400;500&family=Quicksand:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background: url("../../Assets/background2.jpg");
+    padding: 5% 22%;
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        background-color: #1B745E;
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h5 {
+                margin: 0 0 12px;
+                color: #ffffff;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 2.875rem;
+                line-height: 1.1;
+                word-break: break-word;
+                word-wrap: break-word;
+                font-weight: 400;
+            }
+
+            p {
+                padding: 0 0px 20px;
+                color: #ffffff;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1rem;
+                line-height: 1.5;
+                word-break: break-word;
+                word-wrap: break-word;
+                font-weight: 400;
+                max-width: 55%;
+            }
+
+            .btn {
+                cursor: pointer;
+                color: #10634e;
+                background-color: #c4d5c0;
+                border-color: #c4d5c0;
+                padding: 0.5625rem 2.3125rem;
+                border: 0px;
+                border-radius: 0px;
+                font-weight: 400;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1rem;
+            }
+        }
+    }
+}
